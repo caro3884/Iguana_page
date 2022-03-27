@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.nav-section {
+  width: auto;
+  height: 4.5rem;
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.main-title {
+  font-family: "Raleway", Times, serif;
+  color: #ffffff;
+  font-size: 50px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.main-section {
+  width:auto;
+  height: 727px;
+  background-image: url("../img/bg-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#info-section {
+  width: auto;
+  height: 348px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.text-box {
+  width: 475px;
+  height: 197px;
+  color: #ffffff;
+  font-family: "Raleway", Times, serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin-right: 140px;
+
+}
+
+.image-box {
+  display: inline;
+}
+
+.image1 {
+  width: 399px;
+  height: 237px;
+}
+
+#details-section {
+  background-color: #1e1a13;
+  text-align: center;
+  height: 348px;
+}
+
+.icon-box {
+  display: inline-block;
+  color: #ffffff;
+  margin: 0 100px;
+}
+
+.icon-text {
+  font-family: "Raleway", Times;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.details-title {
+  font-size: 40px;
+  color: #ffffff;
+  font-family: "Raleway", Times, serif;
+  padding: 60px 0;
+  font-weight: 500;
+}
+
+i {
+  margin-bottom: 15px;
+}
+
+#gallery-section {
+  height: 348px;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-img {
+  width: 19.75rem;
+  height: 12.625rem;
+  margin-right: 16px;
+}
+
+#footer-section {
+  height: 102px;
+  background-color: #1e1a13;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Raleway", Times;
+  font-weight: 300;
+}
